@@ -3,7 +3,7 @@ clear all
 clc
 close all
 
-EbNo = [0 3 7 10];                          % Range of SNR in dB (SNR = EbNo)
+EbNo = 0:1:10;                          % Range of SNR in dB (SNR = EbNo)
 
 EbNo_lin = 10.^(EbNo/10);               % SNR in linear scale
 
